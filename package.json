@@ -1,5 +1,5 @@
 {
-  "name": "create-npm-lib",
+  "name": "create-scaffold-npm",
   "version": "1.0.8",
   "description": "Utility for scaffold the basis of an npm lib",
   "repository": "https://github.com/RolandoHidalgo/create-npm-lib",
