@@ -1,6 +1,6 @@
 {
   "name": "create-scaffold-npm",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Utility for scaffold the basis of an npm lib",
   "repository": "https://github.com/RolandoHidalgo/create-npm-lib",
   "license": "MIT",
