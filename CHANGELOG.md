@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.0.9
+
+[compare changes](https://github.com/RolandoHidalgo/create-npm-lib/compare/v1.0.8...v1.0.9)
+
+### 🏡 Chore
+
+- Update name field in package.json ([6cd2230](https://github.com/RolandoHidalgo/create-npm-lib/commit/6cd2230))
+
+### ❤️ Contributors
+
+- SkidRow
+
 ## v1.0.8
 
 [compare changes](https://github.com/RolandoHidalgo/create-npm-lib/compare/v1.0.7...v1.0.8)
