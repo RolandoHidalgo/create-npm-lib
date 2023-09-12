@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.0.11
+
+[compare changes](https://github.com/RolandoHidalgo/create-npm-lib/compare/v1.0.10...v1.0.11)
+
+### 🩹 Fixes
+
+- Update prompts ([240ca99](https://github.com/RolandoHidalgo/create-npm-lib/commit/240ca99))
+
+### ❤️ Contributors
+
+- SkidRow
+
 ## v1.0.10
 
 [compare changes](https://github.com/RolandoHidalgo/create-npm-lib/compare/v1.0.9...v1.0.10)
