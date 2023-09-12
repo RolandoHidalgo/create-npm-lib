@@ -1,0 +1,16 @@
+# Changelog
+
+
+## v1.0.1
+
+
+### 🏡 Chore
+
+- Add badges to README.md ([301119a](https://github.com/RolandoHidalgo/create-npm-lib/commit/301119a))
+- Update README.md ([cbd011a](https://github.com/RolandoHidalgo/create-npm-lib/commit/cbd011a))
+- Update repository field in package.json ([a260a27](https://github.com/RolandoHidalgo/create-npm-lib/commit/a260a27))
+
+### ❤️ Contributors
+
+- SkidRow
+
