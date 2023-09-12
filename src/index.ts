@@ -6,7 +6,7 @@ import * as process from "process";
 
 
 (async () => {
-    const response =  await consola.prompt("What is your name?", );
+    const response =  await consola.prompt("package name:", );
 
 
 
