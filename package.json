@@ -1,6 +1,6 @@
 {
   "name": "create-npm-lib",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Utility for scaffold the basis of an npm lib",
   "repository": "https://github.com/RolandoHidalgo/create-npm-lib",
   "license": "MIT",
