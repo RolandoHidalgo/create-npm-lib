@@ -29,7 +29,7 @@
     "lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src test -w",
     "prepack": "pnpm run build",
     "release": "pnpm test && changelogen --release && npm publish && git push --follow-tags",
-    "releasev2": "SET GH_TOKEN=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& changelogen --release --push --publish",
+
     "test:types": "tsc --noEmit --skipLibCheck"
   },
   "devDependencies": {
@@ -54,11 +54,9 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
     "unbuild": "^1.2.1",
-    "with-local-tmp-dir": "^5.0.1"
-  },
-  "packageManager": "pnpm",
-  "dependencies": {
+    "with-local-tmp-dir": "^5.0.1",
     "@jest/types": "^29.6.3",
     "consola": "^3.2.3"
-  }
+  },
+  "packageManager": "pnpm"
 }
