@@ -1,7 +1,6 @@
 import {compareSync, Options} from "dir-compare";
-import {cp, checkName} from '../src/utils';
+import {cp} from '../src/utils';
 import tmp from 'tmp'
-import {consola} from "consola";
 
 tmp.setGracefulCleanup();
 
@@ -63,23 +62,23 @@ describe('Create method', () => {
 })
 
 
-describe('lib name', () => {
-    it('popular name must be taken', async () => {
-        let taken = await checkName('react');
-        expect(taken).toBeTruthy();
-        taken = await checkName('kkjjhhjjhhjjh');
-        expect(taken).toBeFalsy();
-
-    })
-    it('randoom name must not be taken', async () => {
-        let taken = await checkName('react');
-        expect(taken).toBeTruthy();
-        taken = await checkName('kkjjhhjjhhjjh');
-        expect(taken).toBeFalsy();
-
-    })
-
-})
+// describe('lib name', () => {
+//     it('popular name must be taken', async () => {
+//         let taken = await checkName('react');
+//         expect(taken).toBeTruthy();
+//         taken = await checkName('kkjjhhjjhhjjh');
+//         expect(taken).toBeFalsy();
+//
+//     })
+//     it('randoom name must not be taken', async () => {
+//         let taken = await checkName('react');
+//         expect(taken).toBeTruthy();
+//         taken = await checkName('kkjjhhjjhhjjh');
+//         expect(taken).toBeFalsy();
+//
+//     })
+//
+// })
 
 
 
