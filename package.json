@@ -1,6 +1,6 @@
 {
   "name": "create-scaffold-npm",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Utility for scaffold the basis of an npm lib",
   "repository": "https://github.com/RolandoHidalgo/create-npm-lib",
   "license": "MIT",
@@ -33,7 +33,6 @@
     "lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src test -w",
     "prepack": "pnpm run build",
     "release": "pnpm test && changelogen --release && npm publish && git push --follow-tags",
-
     "test:types": "tsc --noEmit --skipLibCheck"
   },
   "devDependencies": {
